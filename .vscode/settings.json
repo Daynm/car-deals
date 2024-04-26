@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/422747c8-0e01-403a-873d-410fa7ba8893/resourceGroups/BS2205_group/providers/Microsoft.Web/sites/BSfruitdeals",
+    "appService.deploySubpath": "."
+}
