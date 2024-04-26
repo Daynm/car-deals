@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#B12A34">
+        <meta property="og:image" content="icons/icon-512.png">
+        <title>Fruit Emporium</title>
+        <meta name="description" content="Cool, reliable fruits">
+        <meta name="author" content="sd">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="style.css">
+        <link rel="manifest" href="cardeals.webmanifest">
+        <link rel="stylesheet"
+                href="car-deals/resources/material-design-lite/material.red-indigo.min.css" />
+        <script src="car-deals/resources/material-design-lite/material.min.js"></script>
+        <script src="car-deals/data/car-deals.js" defer></script>
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title">Fruit Emporium</span>
+                <div class="mdl-layout-spacer"></div>
+                <nav class="mdl-navigation">
+                    <img src="car-deals/img/car-deals.png" alt="Fruit Emportium">
+                </nav>
+            </div>
+        </header>
+        <main>
+            <h1>Welcome to the Fruit Emporium</h1>
+            <p class="description"> The best fruit deals!</p>
+
+            <section id="content">
+                
+
+            </section>
+            <dialog class="mdl-dialog">
+                <h4 class="mdl-dialog__title">NAME</h4>
+                <div class="mdl-dialog__content">
+                    <p>
+                        Fruit Details Shown Here
+                    </p>
+                </div>
+                <div class="mdl-dialog__actions">
+                    <button type="button" class="mdl-button close"
+                        onclick="document.querySelector('dialog').close();">Close</button>
+                </div>
+        </main>
+        <footer>
+            <p>Fruit emporium 2023-2024, website created by Tyler Moore</p>
+        </footer>
+    </body>
+</html>
